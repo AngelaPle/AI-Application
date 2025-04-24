@@ -75,10 +75,11 @@ curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a fantast
 
 ```bash
 .
-├── app.py                  # The Flask API application code
-├── test_emotion_predictor.py # The unit test code
-├── README.md               # This file
-└── requirements.txt        # (Optional) List of dependencies
+├── server.py               # The Flask API application code
+├── error_server.py         # Simulation of a server-side error
+├── emotion_prediction.py   # An example of the unit test code
+├── unit_tests.py           # The unit test code
+└── README.md               # This file
 
 ```
 
