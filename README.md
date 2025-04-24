@@ -70,15 +70,17 @@ curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a fantast
 ]
 
 
+```
+## Project Structure
 
-# Project Structure
-
+```bash
 .
 ├── app.py                  # The Flask API application code
 ├── test_emotion_predictor.py # The unit test code
 ├── README.md               # This file
 └── requirements.txt        # (Optional) List of dependencies
 
+```
 
 
 ## Author
