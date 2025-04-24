@@ -58,3 +58,23 @@ You can send a POST request to the `/predict` endpoint with a JSON body containi
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a fantastic day!"}' [http://0.0.0.0:5000/predict](http://0.0.0.0:5000/predict)
+
+
+
+
+[
+  {
+    "label": "joy",
+    "score": 0.9998699426651001
+  }
+]
+
+
+
+# Project Structure
+
+.
+├── app.py                  # The Flask API application code
+├── test_emotion_predictor.py # The unit test code
+├── README.md               # This file
+└── requirements.txt        # (Optional) List of dependencies
