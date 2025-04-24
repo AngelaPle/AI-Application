@@ -78,3 +78,8 @@ curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a fantast
 ├── test_emotion_predictor.py # The unit test code
 ├── README.md               # This file
 └── requirements.txt        # (Optional) List of dependencies
+
+
+
+## Author
+[AngelaPle]
